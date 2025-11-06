@@ -9,7 +9,7 @@ class Book {
     // Read details from the provided Scanner
     public void inputDetails(Scanner sc) {
         System.out.print("\nEnter Book Number: ");
-        while (sc.hasNextInt()) {
+        while (!sc.hasNextInt()) {
             sc.next();
             System.out.print("Please enter a valid integer for Book Number: ");
         }
