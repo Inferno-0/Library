@@ -90,4 +90,5 @@ public class Library {
             System.err.println("Unexpected error: " + e.getMessage());
         }
     }
+    sc.close();
 }
