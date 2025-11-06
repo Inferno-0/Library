@@ -20,7 +20,7 @@ class Book {
         title = sc.nextLine();
 
         System.out.print("Enter Author Name: ");
-        author = sc.nextInt();
+        author = sc.nextLine();
 
         System.out.print("Enter Price: ");
         while (!sc.hasNextFloat()) {
