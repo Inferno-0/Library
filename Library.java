@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.InputMismatchException;
+import java.util.Scanner;
 
 class Book {
     private int bookNo;
@@ -90,5 +90,4 @@ public class Library {
             System.err.println("Unexpected error: " + e.getMessage());
         }
     }
-    sc.close();
 }
